@@ -3,7 +3,7 @@ package argorollout
 import (
 	"context"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"myapp/client"
+	"kube-scaler/client"
 )
 
 type RolloutLister struct {

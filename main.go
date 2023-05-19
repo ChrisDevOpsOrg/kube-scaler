@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
+	"kube-scaler/argorollout"
+	"kube-scaler/client"
+	"kube-scaler/config"
+	"kube-scaler/deployment"
 	"log"
-	"myapp/argorollout"
-	"myapp/client"
-	"myapp/config"
-	"myapp/deployment"
 	"time"
 )
 
