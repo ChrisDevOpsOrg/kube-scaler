@@ -8,7 +8,7 @@ spec:
     spec:
       template:
         spec:
-          serviceAccountName: mysa
+          serviceAccountName: kube-scaler-sa
           containers:
             - name: simplescaler
               image: ghcr.io/chrisdevopsorg/kubenetes-simple-scaler:latest
@@ -34,7 +34,7 @@ spec:
     spec:
       template:
         spec:
-          serviceAccountName: mysa
+          serviceAccountName: kube-scaler-sa
           containers:
             - name: simplescaler
               image: ghcr.io/chrisdevopsorg/kubenetes-simple-scaler:latest
