@@ -1,4 +1,4 @@
-module kube-scaler
+module github.com/ChrisDevOpsOrg/kube-scaler
 
 go 1.20
 

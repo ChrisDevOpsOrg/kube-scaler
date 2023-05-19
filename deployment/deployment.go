@@ -3,8 +3,8 @@ package deployment
 import (
 	"context"
 	"fmt"
+	"github.com/ChrisDevOpsOrg/kube-scaler/client"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"kube-scaler/client"
 )
 
 type DeploymentLister struct {
